@@ -1,0 +1,31 @@
+{
+  "name": "api-keskonmanj",
+  "version": "1.0.0",
+  "description": "REST API using Node.js to CRUD keskonmanj database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucGulden/API-Keskonmanj.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi",
+    "keskonmanj"
+  ],
+  "author": "lucgulden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucGulden/API-Keskonmanj/issues"
+  },
+  "homepage": "https://github.com/LucGulden/API-Keskonmanj#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
